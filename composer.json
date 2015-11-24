@@ -13,8 +13,8 @@
         }
     ],
     "require": {
-        "matthiasnoback/microsoft-translator": "0.*",
-        "symfony/framework-bundle": "~2.1"
+        "matthiasnoback/microsoft-translator": "dev-master",
+        "symfony/framework-bundle": "~2.2"
     },
     "autoload": {
         "psr-0" : { "MatthiasNoback" : "src/" }
