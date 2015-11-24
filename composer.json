@@ -12,6 +12,7 @@
             "homepage": "http://php-and-symfony.matthiasnoback.nl"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "matthiasnoback/microsoft-translator": "dev-master",
         "symfony/framework-bundle": "~2.2"
