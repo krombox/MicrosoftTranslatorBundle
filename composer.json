@@ -12,9 +12,14 @@
             "homepage": "http://php-and-symfony.matthiasnoback.nl"
         }
     ],
-    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/krombox/microsoft-translator"
+        }
+    ],
     "require": {
-        "matthiasnoback/microsoft-translator": "dev-master",
+        "matthiasnoback/microsoft-translator": "0.*",
         "symfony/framework-bundle": "~2.2"
     },
     "autoload": {
