@@ -18,10 +18,12 @@
             "url": "https://github.com/krombox/microsoft-translator"
         }
     ],
-    "require": {
-        "matthiasnoback/microsoft-translator": "0.3.0",
+    "require": {        
         "symfony/framework-bundle": "~2.2"
     },
+    "require-dev": {
+    	"matthiasnoback/microsoft-translator": "dev-master"
+   	},
     "autoload": {
         "psr-0" : { "MatthiasNoback" : "src/" }
     }
