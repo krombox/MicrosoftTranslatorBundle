@@ -11,13 +11,7 @@
             "email": "matthiasnoback@gmail.com",
             "homepage": "http://php-and-symfony.matthiasnoback.nl"
         }
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/krombox/microsoft-translator"
-        }
-    ],
+    ],    
     "require": {        
         "symfony/framework-bundle": "~2.2"
     },
