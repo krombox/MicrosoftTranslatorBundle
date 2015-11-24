@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "matthiasnoback/microsoft-translator": "0.*",
+        "matthiasnoback/microsoft-translator": "dev-master",
         "symfony/framework-bundle": "~2.2"
     },
     "autoload": {
