@@ -11,11 +11,17 @@
             "email": "matthiasnoback@gmail.com",
             "homepage": "http://php-and-symfony.matthiasnoback.nl"
         }
-    ],    
-    "require": {        
-        "symfony/framework-bundle": "~2.2",
-        "matthiasnoback/microsoft-translator": "dev-master"
-    },    
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/krombox/microsoft-translator"
+        }
+    ],
+    "require": {
+        "matthiasnoback/microsoft-translator": "0.*",
+        "symfony/framework-bundle": "~2.2"
+    },
     "autoload": {
         "psr-0" : { "MatthiasNoback" : "src/" }
     }
